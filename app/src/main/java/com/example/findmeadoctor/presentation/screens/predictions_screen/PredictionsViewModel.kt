@@ -11,11 +11,11 @@ class PredictionsViewModel @Inject constructor(): ViewModel() {
 
 
     val days = mutableStateOf(listOf<Day>(
-        Day(1, .65f, WeatherType.SUNNY),
-        Day(2, .15f, WeatherType.RAINY),
-        Day(3, .25f, WeatherType.SUNNY),
-        Day(4, .62f, WeatherType.RAINY),
-        Day(5, .61f, WeatherType.CLOUDY),
+        Day(1, 65.0f, WeatherType.SUNNY),
+        Day(2, 15.0f, WeatherType.RAINY),
+        Day(3, 25.0f, WeatherType.SUNNY),
+        Day(4, 62.0f, WeatherType.RAINY),
+        Day(5, 61.0f, WeatherType.CLOUDY),
     ))
 
     private val devices = mutableStateOf(listOf(
