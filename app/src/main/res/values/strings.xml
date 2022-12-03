@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Find Me A Doctor</string>
+    <string name="launcher_title">Meet our doctors</string>
+    <string name="launcher_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</string>
+</resources>
